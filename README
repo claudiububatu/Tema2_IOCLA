@@ -1,0 +1,20 @@
+@COPYRIGHT 2021 Bubatu Claudiu-Mihai, 313CA
+-------------------------------------------------------------------------------
+
+Task 1 - rotp
+	- am efectuat operația XOR între mesajul său plaintext și cheia inversată key;
+rezultatul a fost salvat in ciphertext
+
+Task 2 - ages
+	- am verificat cazurile in care luna/ziua curenta este mai mare decat luna
+nasterii, dar si cazul in care anul nasterii este mai mare decat anul curent
+
+Task 3 - columnar
+	-  am parcurs elementele din "matrice" pe coloane; coloanele au fost selectate
+in functie de ordinea care era in key; rezultatul a fost salvat in ciphertext
+
+Task 4 - cache
+	- am tratat doar cazul CACHE_MISS; am calculat tag-ul si offset-ul; 
+am cautat offset-ul pe linia to_replace din cache si m-am dus in dreptul lui;
+am adaugat la adresa lui reg ce se afla la adresele tag000, tag001, etc
+din cache
